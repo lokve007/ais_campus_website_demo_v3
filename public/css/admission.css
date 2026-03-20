@@ -1,0 +1,146 @@
+.admissions {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.admissions .section-subtitle {
+    color: var(--heading-color);
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.8rem;
+}
+
+.admissions .section-subtitle:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--accent-color);
+}
+
+.admissions .application-steps {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.admissions .application-steps .steps-wrapper {
+    position: relative;
+}
+
+.admissions .application-steps .steps-wrapper:before {
+    content: "";
+    position: absolute;
+    left: 23px;
+    top: 15px;
+    height: calc(100% - 30px);
+    width: 2px;
+    background-color: color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+.admissions .application-steps .step-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.8rem;
+    position: relative;
+}
+
+.admissions .application-steps .step-item:last-child {
+    margin-bottom: 0;
+}
+
+.admissions .application-steps .step-number {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.admissions .application-steps .step-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.admissions .application-steps .step-content p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
+
+.admissions .requirements-card {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.admissions .requirements-card .requirements-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+}
+
+.admissions .requirements-card .requirements-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+}
+
+.admissions .requirements-card .requirements-list li i {
+    color: var(--accent-color);
+    margin-right: 10px;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.admissions .requirements-card .requirements-list li span {
+    font-size: 0.95rem;
+}
+
+.admissions .requirements-card .special-note {
+    display: flex;
+    align-items: flex-start;
+    background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.admissions .requirements-card .special-note i {
+    color: var(--accent-color);
+    font-size: 1.2rem;
+    margin-right: 10px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.admissions .requirements-card .special-note p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.admissions .tuition-card {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.admissions .tuition-card .tuition-table {
+    margin-bottom: 1.5rem;
+}
