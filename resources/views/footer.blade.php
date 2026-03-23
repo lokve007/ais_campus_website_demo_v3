@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="bg-light border-top pt-5">
+<footer class="bg-light border-top pt-5 pb-4">
     <div class="container">
         <div class="row">
             <!-- Map & Campuses -->

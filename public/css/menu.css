@@ -17,8 +17,17 @@
     left: 0;
     width: 100%;
     z-index: 3000;
-    background: var(--red);
-    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+}
+.top-nav {
+    background: #f8f9fa;
+    z-index: 3001;
+}
+
+.main-nav {
+    background: #fff;
+    z-index: 3002;
 }
 /* Custom navbar background */
 .navbar-custom {

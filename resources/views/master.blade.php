@@ -23,7 +23,7 @@
             justify-content: flex-end;
         }
         .content-wrapper{
-            padding-top: 10rem;
+            padding-top: 8rem;
             padding-bottom: 2rem;
         }
     </style>

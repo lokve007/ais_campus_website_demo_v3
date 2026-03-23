@@ -53,7 +53,17 @@ img {
     height: auto;
     display: block
 }
-
+.hero-2 , .hero-3{
+    height: calc(100vh - 120px);
+}
+.hero-2 .single-item{
+    height: 100%;
+}
+.hero-3 {
+    position: relative;
+    height: calc(100vh - 120px);
+    margin-bottom: 60px;
+}
 a {
     color: #494949;
 }
@@ -161,7 +171,7 @@ a {
 }
 
 section {
-    padding: 30px 0
+    padding: 60px 0
 }
 
 h1, h2, h3 {
@@ -284,23 +294,27 @@ a.bg-darkgray:hover {
     width:100%;
     height:100%;
 }
-.universities-partner-slide{
-    width:100%;
-    height:100%;
-    overflow:hidden;
+.universities-partner-slide {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    animation: scroll 20s linear infinite;
 }
 .universities-partner-slide img {
-    position: relative;
-    animation: move 20s linear infinite;
+    display: block;
+    height: 7rem;
+    transition: all 0.3s ease;
 }
 
-@keyframes move {
-    0% {
-        left: 100%;
-    }
-    100% {
-        left: -100%;
-    }
+.universities-partner-slide:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); } /* scroll half width */
 }
 .hero__inner {
     display: grid;
@@ -981,12 +995,10 @@ a.bg-darkgray:hover {
     width: 100%;
     aspect-ratio: 16/9;
     overflow: hidden;
+    height: calc(100vh - 75px);
 }
 
-.video-container iframe {
-    width: 100%;
-    height: 100%;
-}
+
 
 .overlay-content {
     position: absolute;
@@ -1522,3 +1534,32 @@ a.bg-darkgray:hover {
 }
 
 
+/* 🔥 Custom dots container */
+.hero-2 .slick-dots {
+    bottom: 20px !important;
+}
+
+/* Remove default dots */
+.hero-2 .slick-dots li button:before {
+    display: none !important;
+}
+
+/* Dot as bar */
+.hero-2 .slick-dots li {
+    width: auto !important;
+    margin: 0 5px;
+}
+
+.hero-2 .slick-dots li button {
+    width: 30px !important;
+    height: 5px !important;
+    background: #ccc !important;
+    /*border-radius: 2px;*/
+    padding: 0;
+}
+
+/* Active bar */
+.hero-2 .slick-dots li.slick-active button {
+    background: #ffffff !important;
+    width: 40px !important;
+}

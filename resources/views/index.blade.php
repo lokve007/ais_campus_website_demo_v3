@@ -12,22 +12,27 @@
         @section('content')
         <section class="hero">
             <div class="hero-1">
-                <div class="container grid-2 container_hero pb-1">
+                <div class="container grid-2 container_hero pb-1 px-5">
                     <div class="hero-image">
                         <img alt="" class="img-fluid" loading="lazy"
                              src="https://ais.edu.kh/storage/photos/promotion/hero-05-03-2026.webp"
                              style="width: 100%; height: 100%; border-radius: 10px;">
                     </div>
-                    <div class="">
+                    <div class="hero-video">
                         <!--        <img src="assets/img/programs.svg" alt="Programs" />-->
-                        <iframe allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen="" class="img-fluid rounded-3" disabled="disabled" frameborder="0"
-                                src="https://www.youtube.com/embed/tn4u8Ws8j6o?si=C5THroTDbwe1NDlx;autoplay=1&amp;controls=1&amp;loop=1&amp;mute=1"
-                                style="aspect-ratio: 16 / 9;border-radius: .3rem;" title="YouTube video player"></iframe>
+                        <iframe
+                            class="img-fluid rounded-3"
+                            style="aspect-ratio: 16 / 9; border-radius: .3rem;"
+                            src="https://www.youtube.com/embed/tn4u8Ws8j6o?autoplay=1&mute=1&controls=1&loop=1&playlist=tn4u8Ws8j6o"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="autoplay; encrypted-media; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
                     </div>
 
                 </div>
-                <div class="d-flex justify-content-center pt-2 pb-3" style="gap: 20px;">
+                <div class="d-flex justify-content-center pt-5" style="gap: 20px;">
                     <button class="btn btn-danger rounded-pill px-4" onclick="window.location.href='admissions.html'">Admission
                     </button>
                     <button class="btn btn-outline-danger rounded-pill px-4" onclick="window.location.href='campuses/index.html'">
@@ -37,10 +42,11 @@
 
 
                 <div class="d-flex justify-content-center" style="gap: 20px;">
-                    <img src="{{ asset('images/award.png') }}" alt="" style="width: 45%">
+                    <img src="{{ asset('images/award.png') }}" alt="" style="width: 35%">
                 </div>
-                <div class="universities-partner-slide">
-                    <img src="{{ asset('images/university-partner.png') }}" alt="" style="width: 45%">
+                <div class="universities-partner-slide pt-4">
+                    <img src="{{ asset('images/university-partner.jpg') }}" alt="" >
+{{--                    <img src="{{ asset('images/university-partner.jpg') }}" alt="" >--}}
                 </div>
             </div>
             <div class="hero-2">
