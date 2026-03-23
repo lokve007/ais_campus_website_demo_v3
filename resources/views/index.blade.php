@@ -12,7 +12,7 @@
         @section('content')
         <section class="hero">
             <div class="hero-1">
-                <div class="container grid-2 container_hero pb-1 px-5">
+                <div class="container grid-2 container_hero pb-1 px-5 pt-5">
                     <div class="hero-image">
                         <img alt="" class="img-fluid" loading="lazy"
                              src="https://ais.edu.kh/storage/photos/promotion/hero-05-03-2026.webp"
@@ -21,8 +21,8 @@
                     <div class="hero-video">
                         <!--        <img src="assets/img/programs.svg" alt="Programs" />-->
                         <iframe
-                            class="img-fluid rounded-3"
-                            style="aspect-ratio: 16 / 9; border-radius: .3rem;"
+                            class="img-fluid"
+                            style="aspect-ratio: 16 / 9; border-radius: 0;"
                             src="https://www.youtube.com/embed/tn4u8Ws8j6o?autoplay=1&mute=1&controls=1&loop=1&playlist=tn4u8Ws8j6o"
                             title="YouTube video player"
                             frameborder="0"
@@ -41,12 +41,18 @@
                 </div>
 
 
-                <div class="d-flex justify-content-center" style="gap: 20px;">
+                <div class="d-flex justify-content-center pt-4" >
                     <img src="{{ asset('images/award.png') }}" alt="" style="width: 35%">
                 </div>
                 <div class="universities-partner-slide pt-4">
-                    <img src="{{ asset('images/university-partner.jpg') }}" alt="" >
-{{--                    <img src="{{ asset('images/university-partner.jpg') }}" alt="" >--}}
+                    <div class="track">
+                        <img src="{{ asset('images/university-partner.jpg') }}" alt="">
+                        <img src="{{ asset('images/university-partner.jpg') }}" alt="">
+
+                        <!-- duplicate -->
+{{--                        <img src="{{ asset('images/university-partner.jpg') }}" alt="">--}}
+{{--                        <img src="{{ asset('images/university-partner.jpg') }}" alt="">--}}
+                    </div>
                 </div>
             </div>
             <div class="hero-2">
@@ -180,8 +186,7 @@
 
 
         </section>
-        <section id="features" class="features section">
-
+        <section id="features" class="features section d-flex align-items-center justify-content-center">
             <!-- Section Title -->
             <div class="container section-title " data-aos="fade-up">
                 <h2>Programs</h2>
@@ -249,7 +254,7 @@
                     </div>
 
                 </div>
-                <div class="d-flex justify-content-center pt-3">
+                <div class="d-flex justify-content-center pt-5">
                     <a class="btn btn-outline-danger rounded-pill px-4" href="academics/index.html">Read More →</a>
                 </div>
             </div>
@@ -405,7 +410,7 @@
         <section id="student-life" class="features section">
 
             <!-- Section Title -->
-            <div class="container section-title pb-4" data-aos="fade-up">
+            <div class="container section-title pb-4 pt-5" data-aos="fade-up">
                 <h2>Student Life</h2>
                 <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div><!-- End Section Title -->
@@ -471,7 +476,7 @@
                     </div>
 
                 </div>
-                <div class="d-flex justify-content-center pt-3">
+                <div class="d-flex justify-content-center pt-5">
                     <a class="btn btn-outline-danger rounded-pill px-4" href="student-life.html">Read More →</a>
                 </div>
             </div>
@@ -558,7 +563,7 @@
         <section id="recent-news" class="recent-news section">
 
             <!-- Section Title -->
-            <div class="container section-title">
+            <div class="container section-title pt-5">
                 <h2>Recent News</h2>
                 <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div><!-- End Section Title -->
@@ -643,7 +648,7 @@
         <section id="events" class="events section">
 
             <!-- Section Title -->
-            <div class="container section-title">
+            <div class="container section-title pt-5">
                 <h2>Events</h2>
                 <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div><!-- End Section Title -->
@@ -824,6 +829,7 @@
             });
         });
     </script>
+
 @endsection
 
 </html>

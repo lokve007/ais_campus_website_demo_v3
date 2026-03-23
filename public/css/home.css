@@ -1,8 +1,9 @@
 /* ========== AIS Global Styles ========== */
 
 @font-face {
-    font-family: 'Helvetica School';
-    src: url('fonts/HELVETICASCHOOL.TTF') format('truetype');
+    /*font-family: 'Helvetica School';*/
+    /*src: url('fonts/HELVETICASCHOOL.TTF') format('truetype');*/
+    font-family: sans-serif;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -40,7 +41,7 @@ html, body {
 
 body {
     margin: 0;
-    font-family: 'Helvetica School', sans-serif !important;
+    /*font-family: 'Helvetica School', sans-serif !important;*/
     /*color:var(--text);*/
     /*background:linear-gradient(180deg,#0b0b0c, #0f0f10 60%);*/
     background-color: #f5f5f7;
@@ -53,17 +54,18 @@ img {
     height: auto;
     display: block
 }
-.hero-2 , .hero-3{
+.hero{
+    /*height: calc(100vh - 120px);*/
+    /*position: relative;*/
+}
+.hero-1 , .hero-2 , .hero-3{
     height: calc(100vh - 120px);
 }
+
 .hero-2 .single-item{
     height: 100%;
 }
-.hero-3 {
-    position: relative;
-    height: calc(100vh - 120px);
-    margin-bottom: 60px;
-}
+
 a {
     color: #494949;
 }
@@ -168,10 +170,6 @@ a {
     .grid-2, .grid-3, .grid-4 {
         grid-template-columns:1fr
     }
-}
-
-section {
-    padding: 60px 0
 }
 
 h1, h2, h3 {
@@ -297,24 +295,41 @@ a.bg-darkgray:hover {
 .universities-partner-slide {
     width: 100%;
     overflow: hidden;
-    display: flex;
-    justify-content: end;
-    animation: scroll 20s linear infinite;
-}
-.universities-partner-slide img {
-    display: block;
-    height: 7rem;
-    transition: all 0.3s ease;
+    position: relative;
 }
 
-.universities-partner-slide:hover {
+.track {
+    display: flex;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+.track img {
+    height: 7rem;
+    margin-right: 40px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* hover effect on logos */
+.track img:hover {
+    transform: scale(1.01);
+    filter: brightness(1.02);
+}
+
+/* pause on hover */
+.universities-partner-slide:hover .track {
     animation-play-state: paused;
     cursor: pointer;
 }
 
+/* smooth infinite loop */
 @keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); } /* scroll half width */
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 .hero__inner {
     display: grid;
@@ -497,6 +512,11 @@ a.bg-darkgray:hover {
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+.features {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .features .content-wrapper {
     padding: 60px 40px;
     height: 100%;
@@ -890,7 +910,7 @@ a.bg-darkgray:hover {
     justify-content: center;
     color: white;
     text-align: center;
-    font-family: Arial, sans-serif;
+    /*font-family: Arial, sans-serif;*/
 }
 
 .hero-bg img {
@@ -993,9 +1013,10 @@ a.bg-darkgray:hover {
 .video-container {
     position: relative;
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
-    height: calc(100vh - 75px);
+    /* height: calc(100vh - 75px); */
+    height: 100%;
 }
 
 

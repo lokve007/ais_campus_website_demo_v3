@@ -23,7 +23,7 @@
             justify-content: flex-end;
         }
         .content-wrapper{
-            padding-top: 8rem;
+            padding-top: 120px; // height of navbar
             padding-bottom: 2rem;
         }
     </style>

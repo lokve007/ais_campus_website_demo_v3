@@ -8,10 +8,6 @@
     width:13vw;
 }
 .navbar-wrapper {
-    background: #1e2a3a;
-    position: relative;
-}
-.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -20,8 +16,8 @@
     display: flex;
     flex-direction: column;
 }
+
 .top-nav {
-    background: #f8f9fa;
     z-index: 3001;
 }
 
