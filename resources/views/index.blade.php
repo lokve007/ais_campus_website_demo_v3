@@ -44,7 +44,7 @@
                 <div class="d-flex justify-content-center pt-4" >
                     <img src="{{ asset('images/award.png') }}" alt="" style="width: 35%">
                 </div>
-                <div class="universities-partner-slide pt-4">
+                <div class="universities-partner-slide pt-3">
                     <div class="track">
                         <img src="{{ asset('images/university-partner.jpg') }}" alt="">
                         <img src="{{ asset('images/university-partner.jpg') }}" alt="">

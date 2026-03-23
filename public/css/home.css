@@ -305,7 +305,7 @@ a.bg-darkgray:hover {
 }
 
 .track img {
-    height: 7rem;
+    height: 9vh;
     margin-right: 40px;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
