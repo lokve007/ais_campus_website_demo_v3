@@ -277,9 +277,13 @@
                         <!-- Map center -->
                         <div class="col-md-6 position-relative d-flex justify-content-center">
 
-                            <img style="width: 18vw !important;"
-                                 src="https://media.istockphoto.com/id/533293223/vector/cambodia-map.jpg?s=612x612&w=0&k=20&c=mdwr9QMDIhWfrMTUH_dAgCUlj4aZ4P_mY3WrdqzfhR4=">
 
+                            <a href="https://www.google.com/maps/d/u/0/embed?mid=12TjVVd4iAbXIDFsxYmBbxcABgQeMwjU&ehbc=2E312F&noprof=1" target="_blank">
+                                <img
+                                    src="https://png.pngtree.com/png-clipart/20230803/original/pngtree-cambodia-map-cut-land-khmer-vector-picture-image_9437021.png"
+                                    alt="AIS Campuses Map"
+                                    style="width: 18vw !important; cursor:pointer; border-radius:10px;">
+                            </a>
                         </div>
 
                         <!-- Right side -->

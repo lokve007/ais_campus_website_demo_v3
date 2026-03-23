@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
+
 </head>
 <body>
 <div class="navbar-wrapper header">
@@ -47,9 +48,13 @@
                             <div class="container-fluid">
                                 <div class="row g-4">
                                     <div class="col-lg-3 mega-column m-auto">
-                                        <img
-                                            src="https://png.pngtree.com/png-clipart/20230803/original/pngtree-cambodia-map-cut-land-khmer-vector-picture-image_9437021.png"
-                                            style="width: 70%" alt="">
+
+                                        <a href="https://www.google.com/maps/d/u/0/embed?mid=12TjVVd4iAbXIDFsxYmBbxcABgQeMwjU&ehbc=2E312F&noprof=1" target="_blank">
+                                            <img
+                                                src="https://png.pngtree.com/png-clipart/20230803/original/pngtree-cambodia-map-cut-land-khmer-vector-picture-image_9437021.png"
+                                                alt="AIS Campuses Map"
+                                                style="width:100%; cursor:pointer; border-radius:10px;">
+                                        </a>
                                     </div>
                                     <div class="col-lg-9">
                                         <div class="row g-4">
