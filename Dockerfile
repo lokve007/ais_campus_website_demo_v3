@@ -24,11 +24,13 @@ RUN composer install --no-dev --optimize-autoloader
 # Fix folder permissions
 RUN chmod -R 777 storage bootstrap/cache
 
-# Generate Laravel APP_KEY if not set
+# Generate key
 RUN php artisan key:generate
 
-# Serve Laravel on Railway dynamic port
-CMD php artisan serve --host=0.0.0.0 --port=$PORT
+# Cache configs BEFORE CMD
 RUN php artisan config:cache
 RUN php artisan route:cache
 RUN php artisan view:cache
+
+# Serve app
+CMD php artisan serve --host=0.0.0.0 --port=$PORT
