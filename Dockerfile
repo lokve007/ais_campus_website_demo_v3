@@ -29,3 +29,6 @@ RUN php artisan key:generate
 
 # Serve Laravel on Railway dynamic port
 CMD php artisan serve --host=0.0.0.0 --port=$PORT
+RUN php artisan config:cache
+RUN php artisan route:cache
+RUN php artisan view:cache
