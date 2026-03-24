@@ -22,9 +22,10 @@
             flex-direction: column;
             justify-content: flex-end;
         }
-        .content-wrapper{
-            padding-top: 120px; // height of navbar
-            padding-bottom: 2rem;
+
+        .content-wrapper {
+            padding-top: 120px;
+        / / height of navbar padding-bottom: 2 rem;
         }
     </style>
 @yield('styles')

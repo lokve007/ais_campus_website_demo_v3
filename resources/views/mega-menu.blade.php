@@ -63,7 +63,7 @@
                                                 <h4>Central Phnom Penh</h4>
                                                 <a href="campuses/mao-tse-tong.html"
                                                    class="nav-link d-flex justify-content-between align-items-center">
-                                                    ↗ &nbsp; Mao Tse Tong
+                                                     ↗&nbsp; Mao Tse Tong
                                                     <span class="sub-arrow">→</span>
                                                 </a>
                                                 <a href="campuses/phsar-thmei.html"

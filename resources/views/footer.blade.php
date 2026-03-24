@@ -1,21 +1,22 @@
 <!-- Footer -->
-<footer class="bg-light border-top pt-5 pb-4">
+<link rel="stylesheet" href="{{ asset('css/footer.css') }}">
+<footer class="border-top pt-5 footer">
     <div class="container">
         <div class="row">
             <!-- Map & Campuses -->
             <div class="col-md-4 mb-4">
                 <h5>Campuses</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#">AIS Mao Tse Tong Campus</a></li>
-                    <li><a href="#">AIS Toul Kork Campus</a></li>
-                    <li><a href="#">AIS Chak Angre Campus</a></li>
-                    <li><a href="#">AIS Chom Chao Campus</a></li>
-                    <li><a href="#">AIS Chroy Changvar Campus</a></li>
-                    <li><a href="#">AIS Siem Reap Campus</a></li>
-                    <li><a href="#">AIS Takeo Campus</a></li>
-                    <li><a href="#">AIS Sen Sok Campus</a></li>
-                    <li><a href="#">AIS Chbar Ampov Campus</a></li>
-                    <li><a href="#">AIS Toul Sangke Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Mao Tse Tong Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Toul Kork Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Chak Angre Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Chom Chao Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Chroy Changvar Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Siem Reap Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Takeo Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Sen Sok Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Chbar Ampov Campus</a></li>
+                    <li><a href="#"> ↗ &nbsp;AIS Toul Sangke Campus</a></li>
                 </ul>
             </div>
 
@@ -23,18 +24,18 @@
             <div class="col-md-4 mb-4">
                 <h5>Why Choose AIS?</h5>
                 <ul class="list-unstyled">
-                    <li>Fees & Admission Process</li>
-                    <li>Requirements</li>
-                    <li>Scholarships & Promotions</li>
+                    <li><a href="#"> ↗ Fees & Admission Process </a></li>
+                    <li><a href="#"> ↗ Requirements </a></li>
+                    <li><a href="#"> ↗ Scholarships & Promotions </a></li>
                 </ul>
 
                 <h5 class="mt-4">Schools</h5>
                 <ul class="list-unstyled">
-                    <li>Preschool</li>
-                    <li>Kindergarten</li>
-                    <li>Elementary</li>
-                    <li>Junior High School</li>
-                    <li>High School</li>
+                    <li><a href="#"> ↗ Preschool </a></li>
+                    <li><a href="#"> ↗ Kindergarten</a></li>
+                    <li><a href="#"> ↗ Elementary</a></li>
+                    <li><a href="#"> ↗ Junior High School</a></li>
+                    <li><a href="#"> ↗ High School</a></li>
                 </ul>
             </div>
 
@@ -42,11 +43,11 @@
             <div class="col-md-4 mb-4">
                 <h5>Communities & News</h5>
                 <ul class="list-unstyled">
-                    <li>Alumni</li>
-                    <li>Student Council</li>
-                    <li>Student Clubs</li>
-                    <li>Intercon Athletics</li>
-                    <li>Committee Articles</li>
+                    <li><a href="#"> ↗ Alumni </a></li>
+                    <li><a href="#"> ↗ Student Council</a></li>
+                    <li><a href="#"> ↗ Student Clubs</a></li>
+                    <li><a href="#"> ↗ Intercon Athletics</a></li>
+                    <li><a href="#"> ↗ Committee Articles</a></li>
                 </ul>
 
                 <div class="mt-4">
@@ -66,7 +67,7 @@
 
     </div>
     <!-- Contact & Social -->
-    <div class="d-flex justify-content-around pt-3  text-dark">
+    <div class="d-flex justify-content-around pt-3  text-dark bg-footer pb-4">
         <div class="">
             <p class="mb-1"><strong>Contact Us</strong></p>
             <p class="mb-0">(855) 11 388 868 | (855) 93 217 217 | (855) 23 221 222</p>

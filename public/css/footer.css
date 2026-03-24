@@ -1,0 +1,19 @@
+.bg-footer {
+    background: linear-gradient(135deg, #b71b1b,
+    color-mix(in srgb, #e08540, #eee758 30%));
+}
+.footer ul li{
+    list-style: none;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #c6c6c6;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #5d5d5d;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.footer ul li :hover{
+    color: #000;
+}
+
