@@ -31,6 +31,9 @@
                 <img src="https://www.ais.edu.kh/storage/photos/logo/AIS-Logo-removebg-preview.png" alt=""
                      class="brand-logo"/>
             </a>
+            <a class="navbar-brand fancy" href="/">
+                Mao Tse Tong
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,7 +41,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav ms-auto">
                     <!-- More (with mega menu) -->
-                    <li class="nav-item has-mega position-static py-2">
+                    <li class="nav-item has-mega py-2">
                         <a class="nav-link d-flex align-items-center">
                             Campuses
                             <i class="bi bi-map px-2"></i>
@@ -49,7 +52,8 @@
                                 <div class="row g-4">
                                     <div class="col-lg-3 mega-column m-auto">
 
-                                        <a href="https://www.google.com/maps/d/u/0/embed?mid=12TjVVd4iAbXIDFsxYmBbxcABgQeMwjU&ehbc=2E312F&noprof=1" target="_blank">
+                                        <a href="https://www.google.com/maps/d/u/0/embed?mid=12TjVVd4iAbXIDFsxYmBbxcABgQeMwjU&ehbc=2E312F&noprof=1"
+                                           target="_blank">
                                             <img
                                                 src="https://png.pngtree.com/png-clipart/20230803/original/pngtree-cambodia-map-cut-land-khmer-vector-picture-image_9437021.png"
                                                 alt="AIS Campuses Map"
@@ -63,7 +67,7 @@
                                                 <h4>Central Phnom Penh</h4>
                                                 <a href="campuses/mao-tse-tong.html"
                                                    class="nav-link d-flex justify-content-between align-items-center">
-                                                     ↗&nbsp; Mao Tse Tong
+                                                    ↗&nbsp; Mao Tse Tong
                                                     <span class="sub-arrow">→</span>
                                                 </a>
                                                 <a href="campuses/phsar-thmei.html"
@@ -160,7 +164,7 @@
                     </li>
 
                     <!-- Education (with mega menu) -->
-                    <li class="nav-item has-mega position-static py-2">
+                    <li class="nav-item has-mega py-2">
                         <a href="/education" class="nav-link d-flex align-items-center">
                             Schools
                             <span class="arrow ms-2">▼</span>
