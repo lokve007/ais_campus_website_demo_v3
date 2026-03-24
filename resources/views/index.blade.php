@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Home | American Intercon School</title>
     <meta name="description" content="AIS Main Homepage"/>
-  <!--   <link rel="stylesheet" href="{{ asset('css/home.css') }}"> --}}
+   <link rel="stylesheet" href="{{ asset('css/home.css') }}"> 
     <link rel="stylesheet" href="{{ env('APP_URL') }}/css/home.css">
 </head>
 <body>
