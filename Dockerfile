@@ -11,14 +11,20 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Set working directory
 WORKDIR /app
 
-# Copy project files
+# Copy project
 COPY . .
 
-# Install Laravel dependencies
+# Copy example env
+RUN cp .env.example .env
+
+# Install dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Generate app key
+# Generate key
 RUN php artisan key:generate
 
-# Serve Laravel
+# Fix permissions
+RUN chmod -R 777 storage bootstrap/cache
+
+# Serve app
 CMD php artisan serve --host=0.0.0.0 --port=$PORT
