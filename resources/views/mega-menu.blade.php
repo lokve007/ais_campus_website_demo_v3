@@ -21,6 +21,7 @@
                     <a class="nav-link" href="#">Contact Us</a>
 
                 </div>
+
             </div>
         </div>
     </nav>
@@ -282,10 +283,16 @@
                             </a>
                         </ul>
                     </div>
-
+                    <li class="nav-item py-2">
+                        <button type="button" class="btn nav-link" data-bs-toggle="modal"
+                                data-bs-target=".bd-example-modal-lg">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </li>
                 </ul>
 
             </div>
+        </div>
     </nav>
 </div>
 </body>
