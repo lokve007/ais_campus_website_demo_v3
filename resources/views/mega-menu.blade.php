@@ -262,6 +262,11 @@
                         <a href="/about" class="nav-link">About Us
                         </a>
                     </li>
+                    <li class="nav-item py-2">
+                        <a href="https://www.invictus.edu.kh" class="nav-link"> BOOK A TOUR
+                            <span>↗</span>
+                        </a>
+                    </li>
 
                     <div class="py-2 dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
