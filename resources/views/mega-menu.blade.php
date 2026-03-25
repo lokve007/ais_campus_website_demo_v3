@@ -295,6 +295,7 @@
         </div>
     </nav>
 </div>
+@include('pages.search')
 </body>
 <script>
     document.addEventListener("DOMContentLoaded", function () {

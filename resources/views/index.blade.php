@@ -11,7 +11,7 @@
 <body>
 @extends('master')
 @section('content')
-    @include('pages.search')
+
     <section class="hero">
         <div class="hero-1">
             <div class="container grid-2 container_hero pb-1 px-5 pt-5">
